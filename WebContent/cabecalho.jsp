@@ -12,18 +12,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Index</h1>
-	<br>
-	
-	<% session.setAttribute("user", "Rafael Ramos"); %>
-	<a href="cabecalho.jsp">Teste</a>
-	<form action="cabecalho.jsp" method="get">
-		
-		<input type="text" id="nome" name="nome" value="alex"><br>
-		<input type="text" id="ano" name="ano" value="1997"><br>
-		<input type="text" id="sexo" name="sexo" value="M"><br>
-		
-		<input type="submit" values="testar">
-	</form>
+	<jsp:setProperty property="*" name="calcula"/>
+	<h3>Cabeçalho</h3>
+		Nome: ${param.nome}
+		<br>
+		Ano: ${param.ano}
+		<br>
+		User: ${sessionScope.user}
 </body>
 </html>

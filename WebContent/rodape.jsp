@@ -7,13 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<%-- DIRECTIVAS ---
-	<%@ page import="java.util.Date" %>
-	<%= "data de hoje: " + new Date() %>
-	--%>
-	
-	<%@ page errorPage="receber-nome.jsp" %>
-	<%= 100/0 %>
-	
+	<h2>Rodapé</h2>
 </body>
 </html>

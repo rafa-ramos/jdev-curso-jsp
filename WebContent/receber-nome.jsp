@@ -7,15 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-
-<%@ page isErrorPage="true" %>
-<%= exception %>
-
-
-<%= session.getAttribute("usuarioLogado") %>
-<br>
-<%-- <% response.sendRedirect("http://www.google.com.br?q= " + request.getParameter("nome")); %> 
-	 <% 	out.print(request.getParameter("nome")); %>
---%> 
+	<h1>RECEBER NOME</h1> 
+	<%= request.getParameter("parmforward") %>
 </body>
 </html>
