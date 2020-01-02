@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>Rodapé</h2>
+	<h2>Acesso negado ao sistema para o seu usuário</h2>
 </body>
 </html>

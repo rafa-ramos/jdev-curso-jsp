@@ -1,5 +1,3 @@
-<jsp:useBean id="calcula" class="beans.BeanCursoJsp" type="beans.BeanCursoJsp" scope="page"/>
-
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 	
@@ -12,12 +10,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<jsp:setProperty property="*" name="calcula"/>
-	<h3>Cabeçalho</h3>
-		Nome: ${param.nome}
-		<br>
-		Ano: ${param.ano}
-		<br>
-		User: ${sessionScope.user}
+	<h3>Seja bem vindo ao sistema em jsp</h3>
+
+	<a href="salvar-usuario?acao=listartodos"><img title="Cadastro de Usuários" width="100px" height="100px" src="resources/img/laptop-user-1-1179329.png"></a>
 </body>
 </html>
